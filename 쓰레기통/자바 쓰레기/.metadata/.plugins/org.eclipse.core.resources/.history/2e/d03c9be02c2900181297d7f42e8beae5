@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class HW2 {
+
+
+	public static void main(String[] arg)
+	{
+		Scanner Keyboard = new Scanner(System.in);
+		int roll_num;
+		String name,address,course;
+		
+
+		System.out.println("Input your roll number: ");
+	
+		
+	}
+	
+	
+	
+	
+}

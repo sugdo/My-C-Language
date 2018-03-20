@@ -1,0 +1,104 @@
+/*
+import java.util.Scanner;
+
+public class go {
+
+	public static void main(String[] arg)
+	{
+		int score;
+		char grade;
+		Scanner Keyboard = new Scanner(System.in);
+		
+		System.out.println("Enter your score: ");
+		
+		score = Keyboard.nextInt();
+		
+		switch(score/10)
+		{
+		case 10:
+		case 9:
+		
+			grade='A';
+			break;
+		
+		case 8:
+		
+			grade='B';
+			break;
+		
+		case 7:
+		
+			grade='C';
+			break;
+		
+		case 6:
+		
+			grade='D';
+			break;
+		
+		default :
+			grade='F';
+		
+		}
+		
+		System.out.println("Score="+score);
+		System.out.println("Grade="+grade);
+		
+		
+	}
+	
+	
+}
+*/
+
+import java.util.Scanner;
+
+public class go {
+
+	public static void main(String[] arg)
+	{
+		double score;
+		String grade;
+		
+		Scanner Keyboard = new Scanner(System.in);
+		
+		System.out.println("Enter your grade: ");
+		
+		grade = Keyboard.nextLine();
+		
+		switch(grade)
+		{
+		
+		case 'A':
+		
+			score=4.0;
+			break;
+		
+		case 'B':
+		
+			score=3.0;
+			break;
+		
+		case 'C':
+		
+			score=2.0;
+			break;
+		
+		case 'D':
+		
+			score=1.0;
+			break;
+		
+		default :
+			score=0;
+		
+		}
+		
+		System.out.println("Score="+score);
+		System.out.println("Grade="+grade);
+		
+		
+	}
+	
+	
+}

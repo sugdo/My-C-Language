@@ -1,0 +1,25 @@
+
+
+import java.util.Scanner;
+
+public class Pra {
+
+
+	public static void main(String[] arg) {
+		
+		int count=0;
+		String S = "Hello";
+		String S2 = "Hellos";
+		if(S==S2)
+		System.out.println("Good");
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

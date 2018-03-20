@@ -1,0 +1,4 @@
+﻿  소스.c
+c:\users\go gwang cheon\source\repos\project11\project11\소스.c(8): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+c:\users\go gwang cheon\source\repos\project11\project11\소스.c(10): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+  Project11.vcxproj -> C:\Users\Go Gwang Cheon\source\repos\Project11\Debug\Project11.exe

@@ -1,0 +1,101 @@
+/*
+import java.util.Scanner;
+
+
+public class Effort {
+
+	public static void main(String[] arg)
+	{
+		double sum;
+		int numberOfStudents;
+		double next;
+		Scanner Keyboard = new Scanner(System.in);
+		String answer;
+		System.out.println("this program computes average of");
+		System.out.println("a list of(nonnegative) exam score.");
+		
+		do {
+			System.out.println();
+			System.out.println("Enter all the scores to be averaged.");
+			System.out.println("Enter a negative number after");
+			System.out.println("you have entered all the scores.");
+			sum=0;
+			numberOfStudents=0;
+			next = Keyboard.nextDouble();
+			while(next>= 0)
+			{
+				sum += next;
+				numberOfStudents++;
+				next = Keyboard.nextDouble();
+			}
+			if(numberOfStudents > 0)
+				System.out.println("The average is "+(sum/numberOfStudents));
+			else
+				System.out.println("No scores to average");
+			
+			System.out.println("Want to average another exam?");
+			System.out.println("Enter yes or no");
+			answer=Keyboard.next();
+			
+			
+		}while(answer.equalsIgnoreCase("yes"));
+		
+		
+		
+		
+	}
+}
+
+
+*/
+
+import java.util.Scanner;
+
+public class Effort {
+
+	public static void main(String[] arg)
+	{
+		int sum=0 , max=0 , min=10000000;
+		int count=0;
+		int next;
+		Scanner Keyboard = new Scanner(System.in);
+		String answer;
+		
+		do {
+			System.out.println();
+			System.out.println("Input Integer.");
+			System.out.println("Enter a negative number after");
+			next = Keyboard.nextInt();
+			while(next>= 0)
+			{
+				sum += next;
+				count++;
+				if(next > max)
+					max=next;
+				if(next < min)
+					min=next;
+				next = Keyboard.nextInt();
+				
+				
+			}
+			if(count > 0)
+				System.out.println("The average is "+((double)sum/count) + "and max , min :" + max + " " +min );
+			else
+				System.out.println("No scores to average");
+			
+			System.out.println("Want to average another exam?");
+			System.out.println("Enter yes or no");
+			answer=Keyboard.next();
+			
+			
+		}while(answer.equalsIgnoreCase("yes"));
+	}
+}
+		
+		
+		
+		
+		
+
+
+

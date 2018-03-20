@@ -1,0 +1,4 @@
+﻿  source.c
+c:\users\go gwang cheon\source\repos\project2\project2\source.c(14): warning C4716: 'mian': 값을 반환해야 합니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+C:\Users\Go Gwang Cheon\source\repos\Project2\Debug\Project2.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

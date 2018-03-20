@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class HW2 {
+
+
+	public static void main(String[] arg)
+	{
+		Scanner Keyboard = new Scanner(System.in);
+		String num;
+		char n1,n2,n3;
+		
+		
+		
+		System.out.println("Input a Octal number:");
+		num=Keyboard.next();
+		System.out.println(num);
+		
+		n1=num.charAt(0);
+		n2=num.charAt(1);
+		n3=num.charAt(2);
+		
+		System.out.println(n1);
+	}
+	
+	
+	
+	
+}
